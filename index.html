@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #444;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .project {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .project video {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .project h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .project p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project a:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Project Portfolio</h1>
+
+    <div class="portfolio">
+
+        <!-- Project 1 -->
+        <div class="project">
+            <video controls>
+                <source src="video/p1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2>Project 1: Room Booking Service Website</h2>
+            <p>Developed a room booking website to streamline property and room bookings for hostels and PGs.</p>
+            <p><strong>URL:</strong> <a href="https://www.fmpg.in" target="_blank">https://www.fmpg.in</a></p>
+            <p><strong>Technical Approach:</strong> Embedded JavaScript | CSS | JavaScript | Node | MongoDB Atlas</p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <video controls>
+                <source src="video/p2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2>Project 2: ChitChat</h2>
+            <p>Contributed to the development of a group chat platform that facilitates real-time communication.</p>
+            <p><strong>Technical Approach:</strong> Embedded JavaScript | CSS | JavaScript</p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project">
+            <video controls>
+                <source src="path/to/your-alumni-website-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2>Project 3: College Alumni Website</h2>
+            <p>Created a portal to connect alumni with current students, facilitating mentorship and networking opportunities.</p>
+            <p><strong>Technical Approach:</strong> React | CSS | JavaScript | Node | MongoDB Atlas</p>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project">
+            <video controls>
+                <source src="video/p3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2>Project 4: ShikshaSetu</h2>
+            <p>Developed an educational website named ShikshaSetu to support students with resources and learning materials.</p>
+            <p><strong>Technical Approach:</strong> React | CSS | JavaScript | Node | MongoDB Atlas</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2024 My Project Portfolio</p>
+    </footer>
+
+</body>
+</html>
